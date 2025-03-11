@@ -65,7 +65,7 @@ const AudioRecorder: React.FC = () => {
   };
 
   // Replace with your machine's IP address
-  const backendUrl = "http://192.168.222.1:8000/upload";
+  const backendUrl = "http://192.168.52.146:8000/upload";
 
   const sendAudioToBackend = async (uri: string): Promise<void> => {
     const formData = new FormData();

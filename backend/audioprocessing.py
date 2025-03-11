@@ -5,8 +5,8 @@ import os
 app = FastAPI()
 
 origins = [
-    "http://localhost:8081",  
-    "exp://192.168.222.1:8081",
+    "http://localhost:8082",  
+    "exp://192.168.52.146:8082",
 ]
 
 # Enable CORS
